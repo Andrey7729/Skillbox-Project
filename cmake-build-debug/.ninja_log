@@ -1,0 +1,21 @@
+# ninja log v6
+89	121	7646974918259294	clean	a912d6e803ee3202
+44094	53409	7646975371588973	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	f05adb868e32fae6
+27551	42740	7647931091552145	CMakeFiles/search_engine_executable.dir/src/main.cpp.obj	822d9ded56cc4d96
+473	27465	7647930820772672	CMakeFiles/search_engine_lib.dir/src/IvertedIndex.cpp.obj	15cbe0d6cefb24dd
+485	27563	7647930820892622	CMakeFiles/search_engine_lib.dir/src/SearchServer.cpp.obj	d48fc560d2fe6f83
+20	23460	7647932487980680	build.ninja	dadcad5f50994949
+461	34447	7647930820652709	CMakeFiles/search_engine_lib.dir/src/ConverterJson.cpp.obj	4efc8b900aa3c67c
+34447	45821	7647931160511508	libsearch_engine_lib.a	24eb3a6789fc9ab6
+40651	64358	7646975337158985	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	e8f36c22b739f525
+211	13553	7647064333308136	tests/CMakeFiles/search_engine1_tests.dir/tests.cpp.obj	b3317a6ab3941b6b
+45821	55692	7647931274258313	search_engine_executable.exe	dab30be5e7e9ba85
+23	107134	7646974930877310	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	e18c79bc876e50ae
+87180	109234	7646975802442157	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	bbe562bfcec9a38d
+107144	127748	7646976002084106	lib/libgtestd.a	48b00a259750113
+129937	130315	7646976230023721	lib/libgmock_maind.a	3ecb9ab28f3b81dc
+127785	128402	7646976208500531	lib/libgtest_maind.a	e51e4f53bdba37e
+127748	129937	7646976208130529	lib/libgmockd.a	668cd5400ef1097b
+13555	27157	7647064602396337	tests/search_engine1_tests.exe	e9533af834741a21
+13555	27157	7647064602396337	C:/skillbox-projects/profession-c-plus-plus/search_engine1/cmake-build-debug/tests/search_engine1_tests[1]_tests.cmake	e9533af834741a21
+13555	27157	7647064602396337	tests/search_engine1_tests[1]_tests.cmake	e9533af834741a21

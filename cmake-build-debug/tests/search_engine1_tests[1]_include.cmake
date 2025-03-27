@@ -1,0 +1,5 @@
+if(EXISTS "C:/skillbox-projects/profession-c-plus-plus/search_engine1/cmake-build-debug/tests/search_engine1_tests[1]_tests.cmake")
+  include("C:/skillbox-projects/profession-c-plus-plus/search_engine1/cmake-build-debug/tests/search_engine1_tests[1]_tests.cmake")
+else()
+  add_test(search_engine1_tests_NOT_BUILT search_engine1_tests_NOT_BUILT)
+endif()
