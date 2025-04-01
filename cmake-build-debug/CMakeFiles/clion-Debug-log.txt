@@ -25,6 +25,6 @@ CMake Deprecation Warning at cmake-build-debug/_deps/googletest-src/googletest/C
 
 
 -- Could NOT find Python (missing: Python_EXECUTABLE Interpreter) 
--- Configuring done (88.1s)
--- Generating done (3.8s)
+-- Configuring done (28.2s)
+-- Generating done (0.8s)
 -- Build files have been written to: C:/skillbox-projects/profession-c-plus-plus/search_engine1/cmake-build-debug

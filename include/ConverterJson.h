@@ -7,10 +7,10 @@
 
 using json = nlohmann::json ;
 
-class ConverterJson
+class ConverterJSON
 {
 public:
-    ConverterJson() = default ;
+    ConverterJSON() = default ;
     //получить содержимое документов из config.json
     std::vector<std::string > GetTextDocument();
     //получить максимальное количество ответов

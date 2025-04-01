@@ -1,11 +1,11 @@
 #include <iostream>
-#include "../include/ConverterJson.h"
+#include "../include/ConverterJSON.h"
 #include "../include/InvertedIndex.h"
 #include "../include/SearchServer.h"
 #include <vector>
 
 int main() {
-    ConverterJson converterJson ;
+    ConverterJSON converterJson ;
     InvertedIndex index ;
 
     std::vector<std::string> textDocuments = converterJson.GetTextDocument() ;

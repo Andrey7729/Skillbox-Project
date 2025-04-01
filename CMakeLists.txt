@@ -11,8 +11,8 @@ include_directories(${nlohmann_json_SOURCE_DIR}/include)
 
 # Создаем библиотеку (только .cpp файлы)
 add_library(search_engine_lib
-        src/ConverterJson.cpp
-        src/IvertedIndex.cpp
+        src/ConverterJSON.cpp
+        src/InvertedIndex.cpp
         src/SearchServer.cpp
 )
 # Добавляем include-пути для библиотеки

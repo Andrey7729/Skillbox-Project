@@ -1,11 +1,11 @@
-#include "../include/ConverterJson.h"
+#include "../include/ConverterJSON.h"
 #include <iostream>
 #include <fstream>
 #include <algorithm>
 #include <sstream>
 #include <vector>
 
-json ConverterJson::loadConfig()  {
+json ConverterJSON::loadConfig()  {
     std::fstream config_file("../config.json") ;
     if(!config_file.is_open())
     {
@@ -26,7 +26,7 @@ json ConverterJson::loadConfig()  {
 
     return config ;
 }
-std::vector<std::string> ConverterJson::GetTextDocument() {
+std::vector<std::string> ConverterJSON::GetTextDocument() {
     std::vector<std::string> documents ;
     try {
         json config = loadConfig() ;
@@ -51,7 +51,7 @@ std::vector<std::string> ConverterJson::GetTextDocument() {
     }
     return documents ;
 }
-int ConverterJson::GetResponsesLimit() {
+int ConverterJSON::GetResponsesLimit() {
     try{
         json config = loadConfig() ;
         if(config["config"].contains("max_responses"))
@@ -65,7 +65,7 @@ int ConverterJson::GetResponsesLimit() {
         throw ;
     }
 }
-std::vector<std::string> ConverterJson::GetRequests() {
+std::vector<std::string> ConverterJSON::GetRequests() {
     std::vector<std::string> requests ;
     std::ifstream requests_file("../requests.json") ;
     if(!requests_file.is_open())
@@ -84,7 +84,7 @@ std::vector<std::string> ConverterJson::GetRequests() {
     }
     return requests ;
 }
-void ConverterJson::putAnswers(const std::vector<std::vector<std::pair<int, float>>>& answers){
+void ConverterJSON::putAnswers(const std::vector<std::vector<std::pair<int, float>>>& answers){
     json answersJSON;//итоговый объект
     json request;//промежуточные данные о запросах
 

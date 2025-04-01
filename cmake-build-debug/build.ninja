@@ -49,15 +49,15 @@ cmake_ninja_workdir = C$:/skillbox-projects/profession-c-plus-plus/search_engine
 
 build cmake_object_order_depends_target_search_engine_lib: phony || .
 
-build CMakeFiles/search_engine_lib.dir/src/ConverterJson.cpp.obj: CXX_COMPILER__search_engine_lib_unscanned_Debug C$:/skillbox-projects/profession-c-plus-plus/search_engine1/src/ConverterJson.cpp || cmake_object_order_depends_target_search_engine_lib
-  DEP_FILE = CMakeFiles\search_engine_lib.dir\src\ConverterJson.cpp.obj.d
+build CMakeFiles/search_engine_lib.dir/src/ConverterJSON.cpp.obj: CXX_COMPILER__search_engine_lib_unscanned_Debug C$:/skillbox-projects/profession-c-plus-plus/search_engine1/src/ConverterJSON.cpp || cmake_object_order_depends_target_search_engine_lib
+  DEP_FILE = CMakeFiles\search_engine_lib.dir\src\ConverterJSON.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -IC:/skillbox-projects/profession-c-plus-plus/search_engine1/nlohmann_json/include
   OBJECT_DIR = CMakeFiles\search_engine_lib.dir
   OBJECT_FILE_DIR = CMakeFiles\search_engine_lib.dir\src
 
-build CMakeFiles/search_engine_lib.dir/src/IvertedIndex.cpp.obj: CXX_COMPILER__search_engine_lib_unscanned_Debug C$:/skillbox-projects/profession-c-plus-plus/search_engine1/src/IvertedIndex.cpp || cmake_object_order_depends_target_search_engine_lib
-  DEP_FILE = CMakeFiles\search_engine_lib.dir\src\IvertedIndex.cpp.obj.d
+build CMakeFiles/search_engine_lib.dir/src/InvertedIndex.cpp.obj: CXX_COMPILER__search_engine_lib_unscanned_Debug C$:/skillbox-projects/profession-c-plus-plus/search_engine1/src/InvertedIndex.cpp || cmake_object_order_depends_target_search_engine_lib
+  DEP_FILE = CMakeFiles\search_engine_lib.dir\src\InvertedIndex.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -IC:/skillbox-projects/profession-c-plus-plus/search_engine1/nlohmann_json/include
   OBJECT_DIR = CMakeFiles\search_engine_lib.dir
@@ -78,7 +78,7 @@ build CMakeFiles/search_engine_lib.dir/src/SearchServer.cpp.obj: CXX_COMPILER__s
 #############################################
 # Link the static library libsearch_engine_lib.a
 
-build libsearch_engine_lib.a: CXX_STATIC_LIBRARY_LINKER__search_engine_lib_Debug CMakeFiles/search_engine_lib.dir/src/ConverterJson.cpp.obj CMakeFiles/search_engine_lib.dir/src/IvertedIndex.cpp.obj CMakeFiles/search_engine_lib.dir/src/SearchServer.cpp.obj
+build libsearch_engine_lib.a: CXX_STATIC_LIBRARY_LINKER__search_engine_lib_Debug CMakeFiles/search_engine_lib.dir/src/ConverterJSON.cpp.obj CMakeFiles/search_engine_lib.dir/src/InvertedIndex.cpp.obj CMakeFiles/search_engine_lib.dir/src/SearchServer.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\search_engine_lib.dir
   POST_BUILD = cd .
